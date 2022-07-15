@@ -5,7 +5,20 @@ onScroll()
 function onScroll() {
   showNavOnScroll();
   showBackToTopbuttomScroll();
+  activeteMenuAtCurrentSections();
  
+}
+
+
+function activeteMenuAtCurrentSections() {
+
+  const targetLine = scrollY +innerHeight /2
+
+  // Verificar se a seção passou da linha
+  
+  const sectionTop = home.offsetTop;
+  
+
 }
 
 
